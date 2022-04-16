@@ -1,0 +1,85 @@
+/*        BACKGROUND ANIMATION          */
+body{
+     animation: fundoanimation 1.5s infinite ;
+}
+
+@keyframes fundoanimation {
+     0%{
+          background-image: linear-gradient(280deg, 
+          rgb(55, 0, 0), 
+          rgb(55, 0, 0), 
+          rgb(55, 0, 0),
+          rgb(55, 0, 0));
+     }
+     10%{
+          background-image: linear-gradient(280deg, 
+          rgb(55, 0, 5), 
+          rgb(55, 0, 30), 
+          rgb(55, 0, 10),
+          rgb(55, 0, 20));
+     }
+     20%{
+          background-image: linear-gradient(280deg, 
+          rgb(55, 0, 10), 
+          rgb(55, 0, 20), 
+          rgb(55, 0, 30),
+          rgb(55, 0, 40));
+     }
+     30%{
+          background-image: linear-gradient(280deg, 
+          rgb(55, 0, 15), 
+          rgb(55, 0, 30), 
+          rgb(55, 0, 45),
+          rgb(55, 0, 60));
+     }
+     40%{
+          background-image: linear-gradient(280deg, 
+          rgb(55, 0, 20), 
+          rgb(55, 0, 40), 
+          rgb(55, 0, 60),
+          rgb(55, 0, 80));
+     }
+     50%{
+          background-image: linear-gradient(280deg, 
+          rgb(55, 0, 25), 
+          rgb(55, 0, 50), 
+          rgb(55, 0, 75),
+          rgb(55, 0, 100));
+     }
+     60%{
+          background-image: linear-gradient(280deg, 
+          rgb(55, 0, 20), 
+          rgb(55, 0, 40), 
+          rgb(55, 0, 60),
+          rgb(55, 0, 80));
+     }
+     70%{
+          background-image: linear-gradient(280deg, 
+          rgb(55, 0, 15), 
+          rgb(55, 0, 30), 
+          rgb(55, 0, 45),
+          rgb(55, 0, 60));
+     }
+     80%{
+          background-image: linear-gradient(280deg, 
+          rgb(55, 0, 10), 
+          rgb(55, 0, 20), 
+          rgb(55, 0, 30),
+          rgb(55, 0, 40));
+     }
+     90%{
+          background-image: linear-gradient(280deg, 
+          rgb(55, 0, 5), 
+          rgb(55, 0, 30), 
+          rgb(55, 0, 10),
+          rgb(55, 0, 20));
+     }
+     100%{
+          background-image: linear-gradient(280deg, 
+          rgb(55, 0, 0), 
+          rgb(55, 0, 0), 
+          rgb(55, 0, 0),
+          rgb(55, 0, 0));
+     }
+}
+/*        END BACKGROUND ANIMATION*/
