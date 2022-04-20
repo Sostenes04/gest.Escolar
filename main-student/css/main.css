@@ -1,0 +1,196 @@
+/*Limpando a ViwPort*/
+
+*, ::before, ::after, body, main section section:last-child section:last-child {
+    margin: 0;
+    padding: 0;
+}
+
+/*Trabalhando no Header*/
+
+header {
+    background-color: #22223b;
+    border-bottom: solid #1c1c33;
+}
+
+/*Header FlexBox*/
+
+header nav, header nav section:last-child, nav section ul {
+    display: flex;
+}
+
+header nav, header nav section:last-child {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Ajustes na formatação*/
+
+header nav section:last-child {
+    width: 60%;
+}
+
+header nav section:first-child, header nav section:last-child article:last-child {
+    padding: 20px;
+}
+
+header nav section ul li {
+    padding: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav section ul li a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #827e96;
+}
+
+/*Header Hover*/
+
+header nav section article ul li:first-child a, header nav a {
+    color: white;
+}
+
+header nav section article ul li:hover {
+    background-color: #2f2f69;
+    cursor: pointer;
+}
+
+/*Trabalhando no Main*/
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background:#fdc26f;
+}
+
+/*Section principal*/
+main #container{
+    width: 90%;
+    height: 90vh;
+    border: #1c1c33;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Primeiro Section*/
+main section section:first-child{
+    width: 90%; 
+}
+
+main section section:first-child ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+main section section:first-child ul li{
+    padding: 20px;
+}
+
+/*Cores Ajustes*/
+main section section ul li a{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main section section:first-child{
+    padding: 20px;
+}
+
+main section section:first-child ul li{
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+main section section:first-child ul li:hover{
+    letter-spacing: 1px;
+}
+
+main section section:first-child ul li:first-child{
+    background-color: #62ACEC;
+}
+
+main section section:first-child ul li:nth-child(2){
+    background-color: #5CB85C;
+}
+
+main section section:first-child ul li:nth-child(3){
+    background-color: #F0AD4E;
+}
+
+main section section:first-child ul li:last-child{
+    background-color: #D9534F;
+}
+
+/*Segundo Section*/
+main section section:last-child{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 90%;
+    
+}
+
+/*primeiro Section do Segundo Section*/
+
+main section section:last-child section:first-child{
+    border:thin solid;
+    border-radius: 10px;
+    width: 70%;
+    height: 60vh;
+
+    text-align: center;
+}
+
+/*Segundo Section do Segundo Section*/
+main section section:last-child section:last-child{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 65vh;
+
+}
+
+/*Horário*/
+main section section:last-child section:last-child article:first-child{
+    margin-bottom: 10vh;
+}
+
+main section section:last-child section:last-child article{
+    border: thin solid;
+    border-radius: 10px;
+    height: 30vh;
+
+    text-align: center;
+}
+
+main section section:last-child section:last-child article:first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+main section section:last-child section:last-child article:first-child ul{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    list-style: none;
+
+}
+
+main section section:last-child section:last-child article:first-child ul li{
+    padding: 10px;
+    
+}
+
+
+
+
